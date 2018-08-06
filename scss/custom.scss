@@ -1,0 +1,101 @@
+// Your variable overrides
+$body-bg: #FAFAFA;
+$theme-colors: (
+  "light": #FAFAFA
+);
+
+@import "../bootstrap/scss/bootstrap";
+
+@font-face {
+    font-family: 'MyriadPro';
+    src: url("./fonts/MyriadPro-Regular.otf");
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url("./fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: 'PTSans';
+    src: url("./fonts/PTSans.ttc");
+}
+
+@font-face {
+    font-family: 'SpaceMono';
+    src: url("./fonts/SpaceMono-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'SpaceMono';
+    src: url("./fonts/SpaceMono-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'GT-Cinetype';
+    src: url("./fonts/GT-Cinetype-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'GT-Cinetype';
+    src: url("./fonts/GT-Cinetype-Regular-Italic.ttf");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT-Cinetype';
+    src: url("./fonts/GT-Cinetype-Bold.ttf");
+    font-weight: bold;
+}
+
+h1 {
+  font-family: Poppins;
+  color: #CC99FF;
+}
+
+h2, a {
+  font-family: SpaceMono;
+  color: #333366;
+}
+
+h3 {
+  font-family: Poppins;
+  color: #333366;
+}
+
+#navbarIcon {
+  width: 50px;
+  height: 50px;
+}
+
+#mainLogo {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  width: 600px;
+}
+
+#arrowDown {
+  padding-top: 5vh;
+  max-height: 100px;
+}
+
+.textblock {
+  padding-top: 10vh;
+}
+
+body {
+  display:none;
+}
+
+.bounce {
+  position: relative;
+  -webkit-animation:bounce 1s infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%       { bottom:5px; }
+  25%, 75% { bottom:15px; }
+  50%      { bottom:20px; }
+  100%     {bottom:0;}
+}
