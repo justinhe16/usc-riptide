@@ -8647,7 +8647,7 @@ h3 {
 }
 h1 {
   font-family: Poppins;
-  color: #CC99FF;
+  color: #66CCCC;
 }
 
 h2, a {
@@ -8658,6 +8658,20 @@ h2, a {
 h3 {
   font-family: Poppins;
   color: #333366;
+}
+
+p {
+  font-family: PTSans;
+  font-size: 1.25em;
+  color: #333366;
+}
+
+body {
+  display: none;
+}
+
+#aboutId, #scheduleId {
+  margin: 0px auto;
 }
 
 #navbarIcon {
@@ -8676,17 +8690,52 @@ h3 {
   max-height: 100px;
 }
 
-.textblock {
-  padding-top: 10vh;
+.footer-middle {
+  background: #3d6277;
+  margin-top: 5em;
+  padding-top: 5em;
+  height: 100px;
+  color: white;
 }
 
-body {
-  display: none;
+.footerImage {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.textblock {
+  padding-top: 10vh;
 }
 
 .bounce {
   position: relative;
   -webkit-animation: bounce 1s infinite;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.wave {
+  color: #333366 !important;
+  transition: color 0.3s;
+}
+
+.wave:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #CC99FF;
+  transition: width 0.3s;
+}
+
+.wave:hover {
+  color: #66CCCC !important;
+}
+
+.wave:hover::after {
+  width: 100%;
 }
 
 @-webkit-keyframes bounce {
