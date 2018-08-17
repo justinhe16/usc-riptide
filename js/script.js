@@ -1,5 +1,6 @@
 $(document).ready(function(){
   $("body").fadeIn(3000);
+  $('.collapse').collapse()
   $("#aboutId").css("opacity","0");
   $("#scheduleId").css("opacity","0");
   $("#footerId").css("opacity","0");
